@@ -12,20 +12,6 @@
 /**
  * main - print opcodes of its own main function
  * @argc: number of arguments
-#include "function_pointers.h"
-
-
-
-/*
-*Intresting note: functions are a set of instruction and
-*function pointers are pointers to the begning of this instruction
-*so if we could get the first instrucions adress inmemory
-*we can see what it is doing by printing the adresses
-*/
-
-/**
- * main - print opcodes of its own main function
- * @argc: number of arguments
  * @argv: vector of arguments
  * Return: 0 if no errors
  */
